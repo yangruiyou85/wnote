@@ -19,8 +19,8 @@
 > source /usr/local/bin/virtualenvwrapper.sh
 
 - 指定创建python虚拟环境的python版本
-mkvirtualenv py27 --python=python2.7
-mkvirtualenv py36  --python=/usr/local/Cellar/python3/3.6.1/bin/python3
+> mkvirtualenv py27 --python=python2.7
+> mkvirtualenv py36  --python=/usr/local/Cellar/python3/3.6.1/bin/python3
 
 
 ## ansible install
@@ -31,4 +31,3 @@ mkvirtualenv py36  --python=/usr/local/Cellar/python3/3.6.1/bin/python3
 
 
 
-## 
