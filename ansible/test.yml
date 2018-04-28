@@ -1,0 +1,10 @@
+---
+- hosts: 192.168.80.35
+  remote_user: root
+  vars:
+    touch_file: test.file
+  tasks:
+    - name: touch file
+      shell: "touch /tmp/{{touch_file}}"
+    - name: install service
+      command: yum

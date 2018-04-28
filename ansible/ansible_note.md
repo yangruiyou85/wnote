@@ -46,6 +46,43 @@
 > ansible-playbook play.yml [options]
   
 
-- yaml语法和变量 
+### yaml语法和变量
+    ---   //表示开始
+  
+    -     //表示列表
+  
+    :     //:后面需要空1格
+  
+    大小写敏感
+
+- 支持数据类型
+  > 字典/列表/纯
+
+
+- {{variable_name}}  变量的引用
+
+
+
+
+### 循环条件
+
+    with_items:标准循环
+    with_nested:嵌套循环
+    with_dict:遍历字典
+    with_together:并行遍历列表
+    with_indexed_items:遍历列表和索引
+    with_file:遍历文件和索引
+    with_fileglod:遍历目录文件
+    until:重试循环
+    with_firsh_found:查找第一个匹配文件
+    with_random_choice:随机选择
+    with_sequence:在序列中循环
+    
+
+
+
+
+
+
 
 

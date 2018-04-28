@@ -1,0 +1,8 @@
+---
+- hosts: 192.168.80.35,192.168.80.38
+  remote_user: root
+  tasks:
+    - name: "touch flag file"
+      command: "touch /tmp/this_is_{{ansible_distribution}}_system"
+      when: (ansible_distribution == "CentOS" and ansible_distribution_major_version == "6") or 
+            (ansible_distribution == "Debian" and ansible_distribution_major_version == "7")
