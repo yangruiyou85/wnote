@@ -33,6 +33,19 @@
 > export ANSIBLE_CONFIG=/virtualenvs/py2/ansible/ansible.cfg
 
 
+## playbook优势
 
+- 便于控制好依赖
+- 可以复用
+- 使用yaml语法
+
+
+## playbook语法
+### playbook基础使用
+
+> ansible-playbook play.yml [options]
+  
+
+- yaml语法和变量 
 
 
