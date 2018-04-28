@@ -1,0 +1,3 @@
+# go note
+
+## lesson1

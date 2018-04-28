@@ -4,5 +4,5 @@
 
 git pull origin master
 git add .
-git commit -m 'md homework'
+git commit -m 'go note'
 git push origin master
