@@ -4,5 +4,5 @@
 
 git pull origin master
 git add .
-git commit -m 'go note'
+git commit -m 'ansible note'
 git push origin master
