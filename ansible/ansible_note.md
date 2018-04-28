@@ -30,4 +30,9 @@
 ## ansible configure
 
 
+> export ANSIBLE_CONFIG=/virtualenvs/py2/ansible/ansible.cfg
+
+
+
+
 

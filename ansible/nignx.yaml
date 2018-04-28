@@ -1,0 +1,10 @@
+#ansible play/task
+#playbook：有一个或多个play组成，一个play可以包含多个task
+
+---
+- hosts:192.168.80.35
+  remote_user:root
+  vars:
+    touch_file:imoock.
+
+

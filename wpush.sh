@@ -4,5 +4,5 @@
 
 git pull origin master
 git add .
-git commit -m 'python virtual env create'
+git commit -m 'galaxy'
 git push origin master
