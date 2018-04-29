@@ -1,0 +1,6 @@
+---
+- hosts: nginx_hosts
+  remote_user: root
+  roles：
+    - common
+    - {role: nginx,tags: nginx}

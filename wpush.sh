@@ -4,5 +4,5 @@
 
 git pull origin master
 git add .
-git commit -m 'playbook'
+git commit -m 'nginx playbook'
 git push origin master

@@ -1,0 +1,10 @@
+---
+- name: install rpm depent for nginx
+  yum: name={{ item }} state=latest
+  with_items:
+    - pcre
+    - pcre-devel
+    - openssl.x86_64
+    - openssl-devel.x86_64
+    - gcc-c++.x86_64
+    - lrzsz.x86_64
