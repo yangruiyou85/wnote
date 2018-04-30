@@ -78,6 +78,60 @@
     with_random_choice:随机选择
     with_sequence:在序列中循环
     
+### ansible核心类位置
+    from ansible.parsing.dataloader import DataLoader
+    from ansible.vars.manager import VariableManager
+    from ansible.inventory.manager import InventoryManager
+    from ansible.playbook.play import Play
+    from ansible.executor.task_queue_manager import TaskQueueManager
+    from ansible.plugins.callback import CallbackBase
+    from ansible.executor.playbook_executor import PlaybookExecutor
+    from ansible.inventory.host import  Host,Group
+
+### ansible核心类介绍
+    DataLoader:用于读取yaml,json格式文件
+    Play:存储执行hosts的角色信息
+    TaskQueueManager:ansible底层用到的任务队列
+    PlaybookExecutor:核心类执行playbook
+    CallbackBase:状态回调，各种成功失败状态
+    InventoryManager:用于导入inventory文件
+    VariableManager:用于存储各类变量信息
+    Host,Group:操作单个主机或主机组信息
+    
+    
+    InventoryManager调用 --->  VariableManager调用
+                          |
+          ad-hoc模式调用       playbook模式调用
+    callback改写
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 

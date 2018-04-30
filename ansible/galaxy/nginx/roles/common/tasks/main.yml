@@ -1,0 +1,9 @@
+---
+
+- name: create a tmp directory
+
+  file: path={{ download_dir }} state=directory
+
+- name: create a applications directory
+
+  file: path={{ app_dir }} state=directory
